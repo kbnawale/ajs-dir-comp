@@ -1,0 +1,20 @@
+<div>
+    <h2>MyTable Direcitve Template</h2>
+</div>
+<div>
+    <table>
+        <thead>
+            <tr>
+                <th ng-repeat="key in myHeadings">{{key}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="emp in myEmpData">
+                <td>{{($index+1)}}</td>
+                <td>{{emp.firstName}}</td>
+                <td>{{emp.lastName}}</td>
+                <td>{{emp.salary}}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>

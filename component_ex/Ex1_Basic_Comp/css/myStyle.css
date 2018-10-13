@@ -1,0 +1,9 @@
+body{
+    background-color: lightgray;
+}
+
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
